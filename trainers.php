@@ -95,7 +95,7 @@
                 <h4>Albus Dombledor</h4>
                 <span>Headmaster</span>
                 <p>
-                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.
                 </p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -114,7 +114,7 @@
                 <h4>Severus Snape</h4>
                 <span>Kepala Kurikulum</span>
                 <p>
-                  Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                  Live as if you were to die tomorrow Learn as if you were to live forever.
                 </p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -133,7 +133,7 @@
                 <h4>Minerva McGonegal</h4>
                 <span>Content</span>
                 <p>
-                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                  Without education, you are not going anywhere in this world.
                 </p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
