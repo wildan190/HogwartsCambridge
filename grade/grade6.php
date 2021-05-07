@@ -148,7 +148,7 @@
 
 
 
-	<h1 class="text-center">Form Siswa</h1>
+	<h1 class="text-center">Form Siswa Kelas 6</h1>
 	
 
 	<!-- Awal Card Form -->

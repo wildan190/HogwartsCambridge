@@ -18,55 +18,55 @@
 		{
 			//Data akan di edit
 			$edit = mysqli_query($koneksi, "UPDATE tmhs set
-											 	kd_mkul = '$_POST[tkd_mkul]',
-											 	nama_mkul = '$_POST[tnama_mkul]',
-												kd_dosen = '$_POST[tkd_dosen]',
-											 	jam = '$_POST[tjam]',
-												ruang_kelas = '$_POST[truang_kelas]',
-												jumlah_mhs = '$_POST[tjumlah_mhs]',
-												tanggal_mulai = '$_POST[ttanggal_mulai]'
+											 	NoKK = '$_POST[tNoKk]',
+											 	namasis = '$_POST[tnamasis]',
+												alamat = '$_POST[talamat]',
+											 	gender = '$_POST[tgender]',
+												agama = '$_POST[tagama]',
+												walsis = '$_POST[twalsis]',
+												tgllhr = '$_POST[ttgllhr]'
 											 WHERE id_tmhs = '$_GET[id]'
 										   ");
 			if($edit) //jika edit sukses
 			{
 				echo "<script>
 						alert('Edit data suksess!');
-						document.location='index.php';
+						document.location='tambah_siswa.php';
 				     </script>";
 			}
 			else
 			{
 				echo "<script>
 						alert('Edit data GAGAL!!');
-						document.location='index.php';
+						document.location='tambah_siswa.php';
 				     </script>";
 			}
 		}
 		else
 		{
 			//Data akan disimpan Baru
-			$simpan = mysqli_query($koneksi, "INSERT INTO tmhs (kd_mkul, nama_mkul, kd_dosen, jam, ruang_kelas,jumlah_mhs,tanggal_mulai)
-										  VALUES ('$_POST[tkd_mkul]', 
-										  		 '$_POST[tnama_mkul]', 
-										  		 '$_POST[tkd_dosen]', 
-										  		 '$_POST[tjam]',
-												 '$_POST[truang_kelas]',
-												 '$_POST[tjumlah_mhs]',
-												 '$_POST[ttanggal_mulai]'
+			$simpan = mysqli_query($koneksi, "INSERT INTO tmhs (NoKK, namasis, alamat, gender, agama,walsis,tgllhr)
+										  VALUES ('$_POST[tNoKK]',
+										  		 '$_POST[tnamasis]', 
+										  		 '$_POST[talamat]', 
+										  		 '$_POST[tgender]',
+												 '$_POST[tagama]',
+												 '$_POST[twalsis]',
+												 '$_POST[ttgllhr]'
 												  )
 										 ");
 			if($simpan) //jika simpan sukses
 			{
 				echo "<script>
 						alert('Simpan data suksess!');
-						document.location='index.php';
+						document.location='tambah_siswa.php';
 				     </script>";
 			}
 			else
 			{
 				echo "<script>
 						alert('Simpan data GAGAL!!');
-						document.location='index.php';
+						document.location='tambah_siswa.php';
 				     </script>";
 			}
 		}
@@ -88,13 +88,13 @@
 			if($data)
 			{
 				//Jika data ditemukan, maka data ditampung ke dalam variabel
-				$vkd_mkul = $data['kd_mkul'];
-				$vnama_mkul = $data['nama_mkul'];
-				$vkd_dosen = $data['kd_dosen'];
-				$vjam = $data['jam'];
-				$vruang_kelas = $data['ruang_kelas'];
-				$vjumlah_mhs = $data['jumlah_mhs'];
-				$vtanggal_mulai = $data['tanggal_mulai'];
+				$vNoKK = $data['NoKK'];
+				$vnamasis = $data['namasis'];
+				$valamat = $data['alamat'];
+				$vgender = $data['gender'];
+				$vagama = $data['agama'];
+				$vwalsis = $data['walsis'];
+				$vtgllhr = $data['tgllhr'];
 			}
 		}
 		else if ($_GET['hal'] == "hapus")
@@ -104,7 +104,7 @@
 			if($hapus){
 				echo "<script>
 						alert('Hapus Data Suksess!!');
-						document.location='index.php';
+						document.location='tambah_siswa.php';
 				     </script>";
 			}
 		}
@@ -177,16 +177,16 @@
 	    	?>
 	    	<tr>
 	    		<td><?=$no++;?></td>
-	    		<td><?=$data['kd_mkul']?></td>
-	    		<td><?=$data['nama_mkul']?></td>
-	    		<td><?=$data['kd_dosen']?></td>
-	    		<td><?=$data['jam']?></td>
-				<td><?=$data['ruang_kelas']?></td>
-				<td><?=$data['jumlah_mhs']?></td>
-				<td><?=$data['tanggal_mulai']?></td>
+	    		<td><?=$data['NoKK']?></td>
+	    		<td><?=$data['namasis']?></td>
+	    		<td><?=$data['alamat']?></td>
+	    		<td><?=$data['gender']?></td>
+				<td><?=$data['agama']?></td>
+				<td><?=$data['walsis']?></td>
+				<td><?=$data['tgllhr']?></td>
 	    		<td>
 	    			<a href="tambah_siswa.php?hal=edit&id=<?=$data['id_tmhs']?>" class="btn btn-warning"> Update </a><br />
-	    			<a href="index.php?hal=hapus&id=<?=$data['id_tmhs']?>" 
+	    			<a href="tambah_siswa.php?hal=hapus&id=<?=$data['id_tmhs']?>" 
 	    			   onclick="return confirm('Apakah yakin ingin menghapus data ini?')" class="btn btn-danger"> Hapus </a>
 	    		</td>
 	    	</tr>
