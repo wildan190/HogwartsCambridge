@@ -92,24 +92,24 @@
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/events-1.jpg" alt="...">
+                <img src="assets/img/acara1.png" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Introduction to webdesign</a></h5>
+                <h5 class="card-title"><a href="">Peresmian Lapangan Quidditch Baru</a></h5>
                 <p class="fst-italic text-center">Sunday, September 26th at 7:00 pm</p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="card-text">Sekolah Hogwarts adalah sekolah pertama yang memiliki program cabang olah raga Quidditch di Indonesia, yang akan membuka atau meresmikan lapangan quidditch baru dan pertama di Indonesia</p>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/events-2.jpg" alt="...">
+                <img src="assets/img/acara0.jpg" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Marketing Strategies</a></h5>
+                <h5 class="card-title"><a href="">Perlombaan Quidditch</a></h5>
                 <p class="fst-italic text-center">Sunday, November 15th at 7:00 pm</p>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                <p class="card-text">Hogwarts telah memenangkan kejuaraan perlombaan quidditch internasional tingkat sekolah dasar di Britania Raya.</p>
               </div>
             </div>
 
