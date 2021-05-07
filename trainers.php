@@ -90,7 +90,7 @@
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/trainers/Albus.jpg" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Albus Dombledor</h4>
                 <span>Headmaster</span>
@@ -109,7 +109,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/trainers/Severus.jpg" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Severus Snape</h4>
                 <span>Kepala Kurikulum</span>
@@ -128,7 +128,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/trainers/Minerva.jpg" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Minerva McGonegal</h4>
                 <span>Content</span>
