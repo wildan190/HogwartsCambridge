@@ -160,22 +160,22 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h4>Sistem Kurikulum dan Pendidikan</h4>
+                    <p>Memiliki sistem pendidikan sekolah dasar terbaik didunia, dan melaksanakan beberapa program yang tidak ada di sekolah lain</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <h4>Program</h4>
+                    <p>Memiliki program yang dapat meningkatkan kreatifitas, semanat dan Minat Siswa.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <h4>Fasilitas</h4>
+                    <p>Berbagai fasilitas lengkap yang tidak dimiliki sekolah lain seperti Laboratorium, Kolam Renang, Ruang Teater dan Sebagainya.</p>
                   </div>
                 </div>
               </div>

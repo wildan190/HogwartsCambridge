@@ -78,8 +78,8 @@
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
       <div class="container">
-        <h2>Trainers</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+        <h2>Pendidik</h2>
+        <p>Hogwarts Memiliki tenaga Pendidik profesional dan berkualifikasi tinggi berdasarkan keahlian.</p>
       </div>
     </div><!-- End Breadcrumbs -->
 
@@ -92,8 +92,8 @@
             <div class="member">
               <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Walter White</h4>
-                <span>Web Development</span>
+                <h4>Albus Dombledor</h4>
+                <span>Headmaster</span>
                 <p>
                   Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
                 </p>
@@ -111,8 +111,8 @@
             <div class="member">
               <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Sarah Jhinson</h4>
-                <span>Marketing</span>
+                <h4>Severus Snape</h4>
+                <span>Kepala Kurikulum</span>
                 <p>
                   Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
                 </p>
@@ -130,7 +130,7 @@
             <div class="member">
               <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>William Anderson</h4>
+                <h4>Minerva McGonegal</h4>
                 <span>Content</span>
                 <p>
                   Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
@@ -186,7 +186,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Let's subscribe to our news to get a variety of interesting information.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
